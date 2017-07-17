@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65C137052DD3F37AD34698EA /* Pods_XmppIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E883FA1BBF1FAD9E4C5B18 /* Pods_XmppIM.framework */; };
+		CA2A3B181F174C20008657EE /* PJCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A3B171F174C20008657EE /* PJCacheManager.m */; };
+		CA2A3B1C1F175683008657EE /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A3B1A1F175683008657EE /* TempViewController.m */; };
+		CA2A3B1D1F175683008657EE /* TempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2A3B1B1F175683008657EE /* TempViewController.xib */; };
+		CA2A3B201F186896008657EE /* PJDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A3B1F1F186896008657EE /* PJDateTool.m */; };
+		CA2A3B231F19A055008657EE /* PreviewImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A3B221F19A055008657EE /* PreviewImageManager.m */; };
+		CA2A3B261F19ACA1008657EE /* VoiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A3B251F19ACA1008657EE /* VoiceManager.m */; };
+		CA2A3B281F1A116F008657EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A3B271F1A116F008657EE /* AVFoundation.framework */; };
+		CA2A3B2B1F1C99E2008657EE /* VoicePlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A3B2A1F1C99E2008657EE /* VoicePlayManager.m */; };
+		CA7AAE7C1F146D2500B5AC15 /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE7A1F146D2500B5AC15 /* FriendCell.m */; };
+		CA7AAE7D1F146D2500B5AC15 /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7AAE7B1F146D2500B5AC15 /* FriendCell.xib */; };
+		CA7AAE831F1479AF00B5AC15 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE821F1479AF00B5AC15 /* ChatViewController.m */; };
+		CA7AAE871F147B4200B5AC15 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE851F147B4200B5AC15 /* ChatCell.m */; };
+		CA7AAE8B1F147CAA00B5AC15 /* PJMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE8A1F147CAA00B5AC15 /* PJMessage.m */; };
+		CA7AAE911F147CEB00B5AC15 /* PJNotifiMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE901F147CEB00B5AC15 /* PJNotifiMessage.m */; };
+		CA7AAE941F147DCB00B5AC15 /* PJContentMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE931F147DCB00B5AC15 /* PJContentMessage.m */; };
+		CA7AAE971F147DDB00B5AC15 /* PJImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE961F147DDB00B5AC15 /* PJImageMessage.m */; };
+		CA7AAE9A1F147DEB00B5AC15 /* PJVoiceMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE991F147DEB00B5AC15 /* PJVoiceMessage.m */; };
+		CA7AAE9D1F14A5C500B5AC15 /* PJInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAE9C1F14A5C500B5AC15 /* PJInputBar.m */; };
+		CA7AAEA31F14C30A00B5AC15 /* ContentChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAEA21F14C30A00B5AC15 /* ContentChatCell.m */; };
+		CA7AAEA61F15ADBD00B5AC15 /* PJMessageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAEA51F15ADBD00B5AC15 /* PJMessageContentView.m */; };
+		CA7AAEA91F15BC7500B5AC15 /* VoiceChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAEA81F15BC7500B5AC15 /* VoiceChatCell.m */; };
+		CA7AAEAC1F15BC8200B5AC15 /* ImageChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAEAB1F15BC8200B5AC15 /* ImageChatCell.m */; };
+		CA7AAEB01F15FD5500B5AC15 /* PJMessageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7AAEAF1F15FD5500B5AC15 /* PJMessageTool.m */; };
+		CAADE9F91F0DE18800BA2B3A /* XmppIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADE9F81F0DE18800BA2B3A /* XmppIMTests.m */; };
+		CAADEA041F0DE18800BA2B3A /* XmppIMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA031F0DE18800BA2B3A /* XmppIMUITests.m */; };
+		CAADEA281F0DE55300BA2B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA1E1F0DE55300BA2B3A /* AppDelegate.m */; };
+		CAADEA291F0DE55300BA2B3A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAADEA1F1F0DE55300BA2B3A /* Info.plist */; };
+		CAADEA2A1F0DE55300BA2B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA201F0DE55300BA2B3A /* main.m */; };
+		CAADEA2B1F0DE55300BA2B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAADEA221F0DE55300BA2B3A /* Assets.xcassets */; };
+		CAADEA2C1F0DE55300BA2B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAADEA231F0DE55300BA2B3A /* LaunchScreen.storyboard */; };
+		CAADEA2D1F0DE55300BA2B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAADEA251F0DE55300BA2B3A /* Main.storyboard */; };
+		CAADEA301F0DE92D00BA2B3A /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA2F1F0DE92D00BA2B3A /* XMPPManager.m */; };
+		CAADEA381F0E0EE100BA2B3A /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA371F0E0EE100BA2B3A /* UserModel.m */; };
+		CAADEA3C1F0E19A700BA2B3A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA3A1F0E19A700BA2B3A /* LoginViewController.m */; };
+		CAADEA3D1F0E19A700BA2B3A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAADEA3B1F0E19A700BA2B3A /* LoginViewController.xib */; };
+		CAADEA451F0E1E9500BA2B3A /* NSString+PJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA441F0E1E9500BA2B3A /* NSString+PJ.m */; };
+		CAADEA4B1F0F60C700BA2B3A /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA491F0F60C700BA2B3A /* AddFriendViewController.m */; };
+		CAADEA4C1F0F60C700BA2B3A /* AddFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAADEA4A1F0F60C700BA2B3A /* AddFriendViewController.xib */; };
+		CAADEA501F0F6AC400BA2B3A /* PJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA4F1F0F6AC400BA2B3A /* PJConst.m */; };
+		CAADEA5A1F0F7F1900BA2B3A /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA591F0F7F1900BA2B3A /* FriendListViewController.m */; };
+		CAADEA5E1F0F7F3B00BA2B3A /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA5D1F0F7F3B00BA2B3A /* ChatListViewController.m */; };
+		CAADEA611F0F7FF100BA2B3A /* PJTabBarVController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAADEA601F0F7FF100BA2B3A /* PJTabBarVController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAADE9F51F0DE18800BA2B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAADE9D31F0DE18800BA2B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAADE9DA1F0DE18800BA2B3A;
+			remoteInfo = XmppIM;
+		};
+		CAADEA001F0DE18800BA2B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAADE9D31F0DE18800BA2B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAADE9DA1F0DE18800BA2B3A;
+			remoteInfo = XmppIM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0E883FA1BBF1FAD9E4C5B18 /* Pods_XmppIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XmppIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B902F4BDEAD1D74298E45C75 /* Pods-XmppIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XmppIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-XmppIM/Pods-XmppIM.release.xcconfig"; sourceTree = "<group>"; };
+		CA2A3B161F174C20008657EE /* PJCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCacheManager.h; sourceTree = "<group>"; };
+		CA2A3B171F174C20008657EE /* PJCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCacheManager.m; sourceTree = "<group>"; };
+		CA2A3B191F175683008657EE /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		CA2A3B1A1F175683008657EE /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		CA2A3B1B1F175683008657EE /* TempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempViewController.xib; sourceTree = "<group>"; };
+		CA2A3B1E1F186896008657EE /* PJDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDateTool.h; sourceTree = "<group>"; };
+		CA2A3B1F1F186896008657EE /* PJDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJDateTool.m; sourceTree = "<group>"; };
+		CA2A3B211F19A055008657EE /* PreviewImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewImageManager.h; sourceTree = "<group>"; };
+		CA2A3B221F19A055008657EE /* PreviewImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewImageManager.m; sourceTree = "<group>"; };
+		CA2A3B241F19ACA1008657EE /* VoiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceManager.h; sourceTree = "<group>"; };
+		CA2A3B251F19ACA1008657EE /* VoiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceManager.m; sourceTree = "<group>"; };
+		CA2A3B271F1A116F008657EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CA2A3B291F1C99E2008657EE /* VoicePlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoicePlayManager.h; sourceTree = "<group>"; };
+		CA2A3B2A1F1C99E2008657EE /* VoicePlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoicePlayManager.m; sourceTree = "<group>"; };
+		CA7AAE791F146D2500B5AC15 /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		CA7AAE7A1F146D2500B5AC15 /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
+		CA7AAE7B1F146D2500B5AC15 /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
+		CA7AAE811F1479AF00B5AC15 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		CA7AAE821F1479AF00B5AC15 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		CA7AAE841F147B4200B5AC15 /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		CA7AAE851F147B4200B5AC15 /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		CA7AAE891F147CAA00B5AC15 /* PJMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJMessage.h; sourceTree = "<group>"; };
+		CA7AAE8A1F147CAA00B5AC15 /* PJMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJMessage.m; sourceTree = "<group>"; };
+		CA7AAE8F1F147CEB00B5AC15 /* PJNotifiMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJNotifiMessage.h; sourceTree = "<group>"; };
+		CA7AAE901F147CEB00B5AC15 /* PJNotifiMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJNotifiMessage.m; sourceTree = "<group>"; };
+		CA7AAE921F147DCB00B5AC15 /* PJContentMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJContentMessage.h; sourceTree = "<group>"; };
+		CA7AAE931F147DCB00B5AC15 /* PJContentMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJContentMessage.m; sourceTree = "<group>"; };
+		CA7AAE951F147DDB00B5AC15 /* PJImageMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJImageMessage.h; sourceTree = "<group>"; };
+		CA7AAE961F147DDB00B5AC15 /* PJImageMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJImageMessage.m; sourceTree = "<group>"; };
+		CA7AAE981F147DEB00B5AC15 /* PJVoiceMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJVoiceMessage.h; sourceTree = "<group>"; };
+		CA7AAE991F147DEB00B5AC15 /* PJVoiceMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJVoiceMessage.m; sourceTree = "<group>"; };
+		CA7AAE9B1F14A5C500B5AC15 /* PJInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJInputBar.h; sourceTree = "<group>"; };
+		CA7AAE9C1F14A5C500B5AC15 /* PJInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJInputBar.m; sourceTree = "<group>"; };
+		CA7AAEA11F14C30A00B5AC15 /* ContentChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentChatCell.h; sourceTree = "<group>"; };
+		CA7AAEA21F14C30A00B5AC15 /* ContentChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentChatCell.m; sourceTree = "<group>"; };
+		CA7AAEA41F15ADBD00B5AC15 /* PJMessageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJMessageContentView.h; sourceTree = "<group>"; };
+		CA7AAEA51F15ADBD00B5AC15 /* PJMessageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJMessageContentView.m; sourceTree = "<group>"; };
+		CA7AAEA71F15BC7500B5AC15 /* VoiceChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceChatCell.h; sourceTree = "<group>"; };
+		CA7AAEA81F15BC7500B5AC15 /* VoiceChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceChatCell.m; sourceTree = "<group>"; };
+		CA7AAEAA1F15BC8200B5AC15 /* ImageChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageChatCell.h; sourceTree = "<group>"; };
+		CA7AAEAB1F15BC8200B5AC15 /* ImageChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageChatCell.m; sourceTree = "<group>"; };
+		CA7AAEAE1F15FD5500B5AC15 /* PJMessageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJMessageTool.h; sourceTree = "<group>"; };
+		CA7AAEAF1F15FD5500B5AC15 /* PJMessageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJMessageTool.m; sourceTree = "<group>"; };
+		CAADE9DB1F0DE18800BA2B3A /* XmppIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XmppIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAADE9F41F0DE18800BA2B3A /* XmppIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmppIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAADE9F81F0DE18800BA2B3A /* XmppIMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmppIMTests.m; sourceTree = "<group>"; };
+		CAADE9FA1F0DE18800BA2B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAADE9FF1F0DE18800BA2B3A /* XmppIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmppIMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAADEA031F0DE18800BA2B3A /* XmppIMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmppIMUITests.m; sourceTree = "<group>"; };
+		CAADEA051F0DE18800BA2B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAADEA1D1F0DE55300BA2B3A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAADEA1E1F0DE55300BA2B3A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAADEA1F1F0DE55300BA2B3A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAADEA201F0DE55300BA2B3A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAADEA221F0DE55300BA2B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAADEA241F0DE55300BA2B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAADEA261F0DE55300BA2B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAADEA2E1F0DE92D00BA2B3A /* XMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
+		CAADEA2F1F0DE92D00BA2B3A /* XMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
+		CAADEA361F0E0EE100BA2B3A /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		CAADEA371F0E0EE100BA2B3A /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		CAADEA391F0E19A700BA2B3A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CAADEA3A1F0E19A700BA2B3A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CAADEA3B1F0E19A700BA2B3A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CAADEA3F1F0E1B6000BA2B3A /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CAADEA431F0E1E9500BA2B3A /* NSString+PJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PJ.h"; sourceTree = "<group>"; };
+		CAADEA441F0E1E9500BA2B3A /* NSString+PJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PJ.m"; sourceTree = "<group>"; };
+		CAADEA481F0F60C700BA2B3A /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		CAADEA491F0F60C700BA2B3A /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		CAADEA4A1F0F60C700BA2B3A /* AddFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddFriendViewController.xib; sourceTree = "<group>"; };
+		CAADEA4E1F0F6AC400BA2B3A /* PJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJConst.h; sourceTree = "<group>"; };
+		CAADEA4F1F0F6AC400BA2B3A /* PJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJConst.m; sourceTree = "<group>"; };
+		CAADEA581F0F7F1900BA2B3A /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		CAADEA591F0F7F1900BA2B3A /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		CAADEA5C1F0F7F3B00BA2B3A /* ChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
+		CAADEA5D1F0F7F3B00BA2B3A /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
+		CAADEA5F1F0F7FF100BA2B3A /* PJTabBarVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJTabBarVController.h; sourceTree = "<group>"; };
+		CAADEA601F0F7FF100BA2B3A /* PJTabBarVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJTabBarVController.m; sourceTree = "<group>"; };
+		FE16AE13F43A88AF926CE13B /* Pods-XmppIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XmppIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XmppIM/Pods-XmppIM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAADE9D81F0DE18800BA2B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A3B281F1A116F008657EE /* AVFoundation.framework in Frameworks */,
+				65C137052DD3F37AD34698EA /* Pods_XmppIM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADE9F11F0DE18800BA2B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADE9FC1F0DE18800BA2B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A337F4B7140DA5984F5EEBD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE16AE13F43A88AF926CE13B /* Pods-XmppIM.debug.xcconfig */,
+				B902F4BDEAD1D74298E45C75 /* Pods-XmppIM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA2A3B151F174C20008657EE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A3B161F174C20008657EE /* PJCacheManager.h */,
+				CA2A3B171F174C20008657EE /* PJCacheManager.m */,
+				CA2A3B1E1F186896008657EE /* PJDateTool.h */,
+				CA2A3B1F1F186896008657EE /* PJDateTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CA7AAE771F146CFD00B5AC15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA7AAE781F146CFD00B5AC15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA7AAE791F146D2500B5AC15 /* FriendCell.h */,
+				CA7AAE7A1F146D2500B5AC15 /* FriendCell.m */,
+				CA7AAE7B1F146D2500B5AC15 /* FriendCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA7AAE7E1F14799200B5AC15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA7AAE891F147CAA00B5AC15 /* PJMessage.h */,
+				CA7AAE8A1F147CAA00B5AC15 /* PJMessage.m */,
+				CA7AAE8F1F147CEB00B5AC15 /* PJNotifiMessage.h */,
+				CA7AAE901F147CEB00B5AC15 /* PJNotifiMessage.m */,
+				CA7AAE921F147DCB00B5AC15 /* PJContentMessage.h */,
+				CA7AAE931F147DCB00B5AC15 /* PJContentMessage.m */,
+				CA7AAE951F147DDB00B5AC15 /* PJImageMessage.h */,
+				CA7AAE961F147DDB00B5AC15 /* PJImageMessage.m */,
+				CA7AAE981F147DEB00B5AC15 /* PJVoiceMessage.h */,
+				CA7AAE991F147DEB00B5AC15 /* PJVoiceMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA7AAE7F1F14799200B5AC15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA7AAE841F147B4200B5AC15 /* ChatCell.h */,
+				CA7AAE851F147B4200B5AC15 /* ChatCell.m */,
+				CA7AAE9B1F14A5C500B5AC15 /* PJInputBar.h */,
+				CA7AAE9C1F14A5C500B5AC15 /* PJInputBar.m */,
+				CA7AAEA11F14C30A00B5AC15 /* ContentChatCell.h */,
+				CA7AAEA21F14C30A00B5AC15 /* ContentChatCell.m */,
+				CA7AAEA41F15ADBD00B5AC15 /* PJMessageContentView.h */,
+				CA7AAEA51F15ADBD00B5AC15 /* PJMessageContentView.m */,
+				CA7AAEA71F15BC7500B5AC15 /* VoiceChatCell.h */,
+				CA7AAEA81F15BC7500B5AC15 /* VoiceChatCell.m */,
+				CA7AAEAA1F15BC8200B5AC15 /* ImageChatCell.h */,
+				CA7AAEAB1F15BC8200B5AC15 /* ImageChatCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA7AAE801F14799200B5AC15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA7AAE811F1479AF00B5AC15 /* ChatViewController.h */,
+				CA7AAE821F1479AF00B5AC15 /* ChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CA7AAEAD1F15FD4300B5AC15 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CA7AAEAE1F15FD5500B5AC15 /* PJMessageTool.h */,
+				CA7AAEAF1F15FD5500B5AC15 /* PJMessageTool.m */,
+				CA2A3B241F19ACA1008657EE /* VoiceManager.h */,
+				CA2A3B251F19ACA1008657EE /* VoiceManager.m */,
+				CA2A3B291F1C99E2008657EE /* VoicePlayManager.h */,
+				CA2A3B2A1F1C99E2008657EE /* VoicePlayManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CAADE9D21F0DE18800BA2B3A = {
+			isa = PBXGroup;
+			children = (
+				CAADE9DD1F0DE18800BA2B3A /* XmppIM */,
+				CAADE9F71F0DE18800BA2B3A /* XmppIMTests */,
+				CAADEA021F0DE18800BA2B3A /* XmppIMUITests */,
+				CAADE9DC1F0DE18800BA2B3A /* Products */,
+				A337F4B7140DA5984F5EEBD4 /* Pods */,
+				FFAE612D5DE3A38275F541D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAADE9DC1F0DE18800BA2B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAADE9DB1F0DE18800BA2B3A /* XmppIM.app */,
+				CAADE9F41F0DE18800BA2B3A /* XmppIMTests.xctest */,
+				CAADE9FF1F0DE18800BA2B3A /* XmppIMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAADE9DD1F0DE18800BA2B3A /* XmppIM */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA111F0DE55300BA2B3A /* Class */,
+				CAADEA1B1F0DE55300BA2B3A /* Other */,
+				CAADEA211F0DE55300BA2B3A /* Resource */,
+				CAADE9DE1F0DE18800BA2B3A /* Supporting Files */,
+			);
+			path = XmppIM;
+			sourceTree = "<group>";
+		};
+		CAADE9DE1F0DE18800BA2B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAADE9F71F0DE18800BA2B3A /* XmppIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAADE9F81F0DE18800BA2B3A /* XmppIMTests.m */,
+				CAADE9FA1F0DE18800BA2B3A /* Info.plist */,
+			);
+			path = XmppIMTests;
+			sourceTree = "<group>";
+		};
+		CAADEA021F0DE18800BA2B3A /* XmppIMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA031F0DE18800BA2B3A /* XmppIMUITests.m */,
+				CAADEA051F0DE18800BA2B3A /* Info.plist */,
+			);
+			path = XmppIMUITests;
+			sourceTree = "<group>";
+		};
+		CAADEA111F0DE55300BA2B3A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA531F0F7ED000BA2B3A /* Main */,
+				CAADEA411F0E1E9500BA2B3A /* Other */,
+				CAADEA121F0DE55300BA2B3A /* Common */,
+				CAADEA141F0DE55300BA2B3A /* IM */,
+				CAADEA171F0DE55300BA2B3A /* Login */,
+				CAADEA1A1F0DE55300BA2B3A /* Tools */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CAADEA121F0DE55300BA2B3A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A3B151F174C20008657EE /* Tool */,
+				CAADEA4D1F0F6A9500BA2B3A /* Const */,
+				CAADEA131F0DE55300BA2B3A /* XMPPManager */,
+				CAADEA3F1F0E1B6000BA2B3A /* Header.h */,
+				CA2A3B211F19A055008657EE /* PreviewImageManager.h */,
+				CA2A3B221F19A055008657EE /* PreviewImageManager.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CAADEA131F0DE55300BA2B3A /* XMPPManager */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA2E1F0DE92D00BA2B3A /* XMPPManager.h */,
+				CAADEA2F1F0DE92D00BA2B3A /* XMPPManager.m */,
+			);
+			path = XMPPManager;
+			sourceTree = "<group>";
+		};
+		CAADEA141F0DE55300BA2B3A /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA511F0F7CB000BA2B3A /* FriendList */,
+				CAADEA461F0F3BF300BA2B3A /* AddFriend */,
+				CAADEA151F0DE55300BA2B3A /* Chat */,
+				CAADEA161F0DE55300BA2B3A /* ChatList */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		CAADEA151F0DE55300BA2B3A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CA7AAEAD1F15FD4300B5AC15 /* Tool */,
+				CA7AAE7E1F14799200B5AC15 /* Model */,
+				CA7AAE7F1F14799200B5AC15 /* View */,
+				CA7AAE801F14799200B5AC15 /* Controller */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		CAADEA161F0DE55300BA2B3A /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA5B1F0F7F2A00BA2B3A /* Controller */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		CAADEA171F0DE55300BA2B3A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA311F0E0ECE00BA2B3A /* Controller */,
+				CAADEA341F0E0ECE00BA2B3A /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CAADEA1A1F0DE55300BA2B3A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CAADEA1B1F0DE55300BA2B3A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA1C1F0DE55300BA2B3A /* AppDelegate */,
+				CAADEA1F1F0DE55300BA2B3A /* Info.plist */,
+				CAADEA201F0DE55300BA2B3A /* main.m */,
+				CA2A3B191F175683008657EE /* TempViewController.h */,
+				CA2A3B1A1F175683008657EE /* TempViewController.m */,
+				CA2A3B1B1F175683008657EE /* TempViewController.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CAADEA1C1F0DE55300BA2B3A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA1D1F0DE55300BA2B3A /* AppDelegate.h */,
+				CAADEA1E1F0DE55300BA2B3A /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CAADEA211F0DE55300BA2B3A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA221F0DE55300BA2B3A /* Assets.xcassets */,
+				CAADEA231F0DE55300BA2B3A /* LaunchScreen.storyboard */,
+				CAADEA251F0DE55300BA2B3A /* Main.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CAADEA311F0E0ECE00BA2B3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA391F0E19A700BA2B3A /* LoginViewController.h */,
+				CAADEA3A1F0E19A700BA2B3A /* LoginViewController.m */,
+				CAADEA3B1F0E19A700BA2B3A /* LoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAADEA341F0E0ECE00BA2B3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA361F0E0EE100BA2B3A /* UserModel.h */,
+				CAADEA371F0E0EE100BA2B3A /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAADEA411F0E1E9500BA2B3A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA421F0E1E9500BA2B3A /* Category */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CAADEA421F0E1E9500BA2B3A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA431F0E1E9500BA2B3A /* NSString+PJ.h */,
+				CAADEA441F0E1E9500BA2B3A /* NSString+PJ.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CAADEA461F0F3BF300BA2B3A /* AddFriend */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA471F0F3BF300BA2B3A /* Controller */,
+			);
+			path = AddFriend;
+			sourceTree = "<group>";
+		};
+		CAADEA471F0F3BF300BA2B3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA481F0F60C700BA2B3A /* AddFriendViewController.h */,
+				CAADEA491F0F60C700BA2B3A /* AddFriendViewController.m */,
+				CAADEA4A1F0F60C700BA2B3A /* AddFriendViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAADEA4D1F0F6A9500BA2B3A /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA4E1F0F6AC400BA2B3A /* PJConst.h */,
+				CAADEA4F1F0F6AC400BA2B3A /* PJConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		CAADEA511F0F7CB000BA2B3A /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				CA7AAE771F146CFD00B5AC15 /* Model */,
+				CA7AAE781F146CFD00B5AC15 /* View */,
+				CAADEA521F0F7CB000BA2B3A /* Controller */,
+			);
+			path = FriendList;
+			sourceTree = "<group>";
+		};
+		CAADEA521F0F7CB000BA2B3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA581F0F7F1900BA2B3A /* FriendListViewController.h */,
+				CAADEA591F0F7F1900BA2B3A /* FriendListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAADEA531F0F7ED000BA2B3A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA541F0F7ED000BA2B3A /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CAADEA541F0F7ED000BA2B3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA5F1F0F7FF100BA2B3A /* PJTabBarVController.h */,
+				CAADEA601F0F7FF100BA2B3A /* PJTabBarVController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAADEA5B1F0F7F2A00BA2B3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAADEA5C1F0F7F3B00BA2B3A /* ChatListViewController.h */,
+				CAADEA5D1F0F7F3B00BA2B3A /* ChatListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFAE612D5DE3A38275F541D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A3B271F1A116F008657EE /* AVFoundation.framework */,
+				B0E883FA1BBF1FAD9E4C5B18 /* Pods_XmppIM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAADE9DA1F0DE18800BA2B3A /* XmppIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAADEA081F0DE18800BA2B3A /* Build configuration list for PBXNativeTarget "XmppIM" */;
+			buildPhases = (
+				4B8C375BC0DD2D7893BF73FC /* [CP] Check Pods Manifest.lock */,
+				CAADE9D71F0DE18800BA2B3A /* Sources */,
+				CAADE9D81F0DE18800BA2B3A /* Frameworks */,
+				CAADE9D91F0DE18800BA2B3A /* Resources */,
+				30CB2C2EF909FC8064222444 /* [CP] Embed Pods Frameworks */,
+				81B3E46C1D3F4EDF9E49820F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmppIM;
+			productName = XmppIM;
+			productReference = CAADE9DB1F0DE18800BA2B3A /* XmppIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAADE9F31F0DE18800BA2B3A /* XmppIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAADEA0B1F0DE18800BA2B3A /* Build configuration list for PBXNativeTarget "XmppIMTests" */;
+			buildPhases = (
+				CAADE9F01F0DE18800BA2B3A /* Sources */,
+				CAADE9F11F0DE18800BA2B3A /* Frameworks */,
+				CAADE9F21F0DE18800BA2B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAADE9F61F0DE18800BA2B3A /* PBXTargetDependency */,
+			);
+			name = XmppIMTests;
+			productName = XmppIMTests;
+			productReference = CAADE9F41F0DE18800BA2B3A /* XmppIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAADE9FE1F0DE18800BA2B3A /* XmppIMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAADEA0E1F0DE18800BA2B3A /* Build configuration list for PBXNativeTarget "XmppIMUITests" */;
+			buildPhases = (
+				CAADE9FB1F0DE18800BA2B3A /* Sources */,
+				CAADE9FC1F0DE18800BA2B3A /* Frameworks */,
+				CAADE9FD1F0DE18800BA2B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAADEA011F0DE18800BA2B3A /* PBXTargetDependency */,
+			);
+			name = XmppIMUITests;
+			productName = XmppIMUITests;
+			productReference = CAADE9FF1F0DE18800BA2B3A /* XmppIMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAADE9D31F0DE18800BA2B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cn.mjbang;
+				TargetAttributes = {
+					CAADE9DA1F0DE18800BA2B3A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KQ97X6WRL9;
+						ProvisioningStyle = Automatic;
+					};
+					CAADE9F31F0DE18800BA2B3A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KQ97X6WRL9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAADE9DA1F0DE18800BA2B3A;
+					};
+					CAADE9FE1F0DE18800BA2B3A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KQ97X6WRL9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAADE9DA1F0DE18800BA2B3A;
+					};
+				};
+			};
+			buildConfigurationList = CAADE9D61F0DE18800BA2B3A /* Build configuration list for PBXProject "XmppIM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAADE9D21F0DE18800BA2B3A;
+			productRefGroup = CAADE9DC1F0DE18800BA2B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAADE9DA1F0DE18800BA2B3A /* XmppIM */,
+				CAADE9F31F0DE18800BA2B3A /* XmppIMTests */,
+				CAADE9FE1F0DE18800BA2B3A /* XmppIMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAADE9D91F0DE18800BA2B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAADEA4C1F0F60C700BA2B3A /* AddFriendViewController.xib in Resources */,
+				CAADEA3D1F0E19A700BA2B3A /* LoginViewController.xib in Resources */,
+				CAADEA2C1F0DE55300BA2B3A /* LaunchScreen.storyboard in Resources */,
+				CA7AAE7D1F146D2500B5AC15 /* FriendCell.xib in Resources */,
+				CA2A3B1D1F175683008657EE /* TempViewController.xib in Resources */,
+				CAADEA2B1F0DE55300BA2B3A /* Assets.xcassets in Resources */,
+				CAADEA291F0DE55300BA2B3A /* Info.plist in Resources */,
+				CAADEA2D1F0DE55300BA2B3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADE9F21F0DE18800BA2B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADE9FD1F0DE18800BA2B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30CB2C2EF909FC8064222444 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XmppIM/Pods-XmppIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8C375BC0DD2D7893BF73FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81B3E46C1D3F4EDF9E49820F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XmppIM/Pods-XmppIM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAADE9D71F0DE18800BA2B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7AAEA91F15BC7500B5AC15 /* VoiceChatCell.m in Sources */,
+				CA7AAE831F1479AF00B5AC15 /* ChatViewController.m in Sources */,
+				CA7AAE871F147B4200B5AC15 /* ChatCell.m in Sources */,
+				CA7AAE911F147CEB00B5AC15 /* PJNotifiMessage.m in Sources */,
+				CAADEA301F0DE92D00BA2B3A /* XMPPManager.m in Sources */,
+				CA7AAEA61F15ADBD00B5AC15 /* PJMessageContentView.m in Sources */,
+				CA7AAEA31F14C30A00B5AC15 /* ContentChatCell.m in Sources */,
+				CAADEA451F0E1E9500BA2B3A /* NSString+PJ.m in Sources */,
+				CA2A3B261F19ACA1008657EE /* VoiceManager.m in Sources */,
+				CAADEA4B1F0F60C700BA2B3A /* AddFriendViewController.m in Sources */,
+				CA7AAE7C1F146D2500B5AC15 /* FriendCell.m in Sources */,
+				CA2A3B181F174C20008657EE /* PJCacheManager.m in Sources */,
+				CA2A3B1C1F175683008657EE /* TempViewController.m in Sources */,
+				CAADEA5A1F0F7F1900BA2B3A /* FriendListViewController.m in Sources */,
+				CAADEA5E1F0F7F3B00BA2B3A /* ChatListViewController.m in Sources */,
+				CA7AAE9A1F147DEB00B5AC15 /* PJVoiceMessage.m in Sources */,
+				CA7AAE8B1F147CAA00B5AC15 /* PJMessage.m in Sources */,
+				CAADEA381F0E0EE100BA2B3A /* UserModel.m in Sources */,
+				CA7AAEB01F15FD5500B5AC15 /* PJMessageTool.m in Sources */,
+				CAADEA3C1F0E19A700BA2B3A /* LoginViewController.m in Sources */,
+				CA7AAE941F147DCB00B5AC15 /* PJContentMessage.m in Sources */,
+				CA7AAEAC1F15BC8200B5AC15 /* ImageChatCell.m in Sources */,
+				CA7AAE9D1F14A5C500B5AC15 /* PJInputBar.m in Sources */,
+				CAADEA611F0F7FF100BA2B3A /* PJTabBarVController.m in Sources */,
+				CAADEA501F0F6AC400BA2B3A /* PJConst.m in Sources */,
+				CA7AAE971F147DDB00B5AC15 /* PJImageMessage.m in Sources */,
+				CA2A3B201F186896008657EE /* PJDateTool.m in Sources */,
+				CA2A3B2B1F1C99E2008657EE /* VoicePlayManager.m in Sources */,
+				CAADEA281F0DE55300BA2B3A /* AppDelegate.m in Sources */,
+				CAADEA2A1F0DE55300BA2B3A /* main.m in Sources */,
+				CA2A3B231F19A055008657EE /* PreviewImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADE9F01F0DE18800BA2B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAADE9F91F0DE18800BA2B3A /* XmppIMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAADE9FB1F0DE18800BA2B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAADEA041F0DE18800BA2B3A /* XmppIMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAADE9F61F0DE18800BA2B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAADE9DA1F0DE18800BA2B3A /* XmppIM */;
+			targetProxy = CAADE9F51F0DE18800BA2B3A /* PBXContainerItemProxy */;
+		};
+		CAADEA011F0DE18800BA2B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAADE9DA1F0DE18800BA2B3A /* XmppIM */;
+			targetProxy = CAADEA001F0DE18800BA2B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAADEA231F0DE55300BA2B3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAADEA241F0DE55300BA2B3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CAADEA251F0DE55300BA2B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAADEA261F0DE55300BA2B3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAADEA061F0DE18800BA2B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAADEA071F0DE18800BA2B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAADEA091F0DE18800BA2B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE16AE13F43A88AF926CE13B /* Pods-XmppIM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KQ97X6WRL9;
+				GCC_PREFIX_HEADER = XmppIM/PrefixHeader.pch;
+				INFOPLIST_FILE = XmppIM/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mjbang.XmppIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAADEA0A1F0DE18800BA2B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B902F4BDEAD1D74298E45C75 /* Pods-XmppIM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KQ97X6WRL9;
+				GCC_PREFIX_HEADER = XmppIM/PrefixHeader.pch;
+				INFOPLIST_FILE = XmppIM/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mjbang.XmppIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAADEA0C1F0DE18800BA2B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KQ97X6WRL9;
+				INFOPLIST_FILE = XmppIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mjbang.XmppIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XmppIM.app/XmppIM";
+			};
+			name = Debug;
+		};
+		CAADEA0D1F0DE18800BA2B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KQ97X6WRL9;
+				INFOPLIST_FILE = XmppIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mjbang.XmppIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XmppIM.app/XmppIM";
+			};
+			name = Release;
+		};
+		CAADEA0F1F0DE18800BA2B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KQ97X6WRL9;
+				INFOPLIST_FILE = XmppIMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mjbang.XmppIMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XmppIM;
+			};
+			name = Debug;
+		};
+		CAADEA101F0DE18800BA2B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KQ97X6WRL9;
+				INFOPLIST_FILE = XmppIMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mjbang.XmppIMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XmppIM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAADE9D61F0DE18800BA2B3A /* Build configuration list for PBXProject "XmppIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAADEA061F0DE18800BA2B3A /* Debug */,
+				CAADEA071F0DE18800BA2B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAADEA081F0DE18800BA2B3A /* Build configuration list for PBXNativeTarget "XmppIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAADEA091F0DE18800BA2B3A /* Debug */,
+				CAADEA0A1F0DE18800BA2B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAADEA0B1F0DE18800BA2B3A /* Build configuration list for PBXNativeTarget "XmppIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAADEA0C1F0DE18800BA2B3A /* Debug */,
+				CAADEA0D1F0DE18800BA2B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAADEA0E1F0DE18800BA2B3A /* Build configuration list for PBXNativeTarget "XmppIMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAADEA0F1F0DE18800BA2B3A /* Debug */,
+				CAADEA101F0DE18800BA2B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAADE9D31F0DE18800BA2B3A /* Project object */;
+}

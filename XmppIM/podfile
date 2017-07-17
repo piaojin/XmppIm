@@ -1,0 +1,8 @@
+# platform :ios, '9.0'
+use_frameworks!
+target 'XmppIM' do
+  pod 'SVProgressHUD'
+  pod 'XMPPFramework', '~> 3.7.0'
+  pod 'TZImagePickerController', '~> 1.7.1'
+  pod 'MJRefresh'
+end

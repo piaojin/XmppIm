@@ -1,0 +1,35 @@
+PODS:
+  - CocoaAsyncSocket (7.6.0)
+  - CocoaLumberjack (3.1.0):
+    - CocoaLumberjack/Default (= 3.1.0)
+    - CocoaLumberjack/Extensions (= 3.1.0)
+  - CocoaLumberjack/Default (3.1.0)
+  - CocoaLumberjack/Extensions (3.1.0):
+    - CocoaLumberjack/Default
+  - KissXML (5.2.0)
+  - MJRefresh (3.1.12)
+  - SVProgressHUD (2.1.2)
+  - TZImagePickerController (1.7.8)
+  - XMPPFramework (3.7.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
+
+DEPENDENCIES:
+  - MJRefresh
+  - SVProgressHUD
+  - TZImagePickerController (~> 1.7.1)
+  - XMPPFramework (~> 3.7.0)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
+  KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
+  XMPPFramework: 6f99ad1afcdb0cdbec7192a8e4c542c3fc3de6f8
+
+PODFILE CHECKSUM: 0836077a8091220b763e67bfb5dd7a8c7a276086
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.h
+//  XmppIM
+//
+//  Created by 飘金 on 2017/7/6.
+//  Copyright © 2017年 cn.mjbang. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#ifdef __OBJC__
+#import "Header.h"
+#endif
+
+//输出控制
+#ifndef __OPTIMIZE__
+# define NSLog(...) NSLog(__VA_ARGS__)
+#else
+# define NSLog(...)
+#endif
+
+#endif /* PrefixHeader_h */
