@@ -2,7 +2,7 @@
 ### 时间过得很快,我的第一份iOS工作做的就是IM应用(选用的是XMPP),如今也忘得差不多了.利用空闲时间来重写一遍小Demo就当复习一下.
 ### 原理我就不介绍了,服务器的安装与配置可以参考[XMPP的mysql和openfire环境配置](XMPP的mysql和openfire环境配置)或者[配置介绍这篇](http://blog.csdn.net/u013087513/article/details/49669185)
 ### [环境配置转自陈怀哲首发自简](http://www.jianshu.com/p/8894a5a71b70)开始吧!
-## 我做的简书地址为:(简书地址)[http://www.jianshu.com/p/c196135efc45]里面有很多BUG不要太介意
+## 我做的简书地址为:(http://www.jianshu.com/p/c196135efc45)[简书地址]里面有很多BUG不要太介意
 ### 先来一个流程图:
 ![](http://upload-images.jianshu.io/upload_images/530099-405500d49adc357e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -926,5 +926,5 @@ full JID：user@domain.tld/resource
 
 ```
 
-## 好了,大概就这些,比较基本的,我做的简书地址为:(简书地址)[http://www.jianshu.com/p/c196135efc45]里面有很多BUG不要太介意
+## 好了,大概就这些,比较基本的,我做的简书地址为:(http://www.jianshu.com/p/c196135efc45)[简书地址]里面有很多BUG不要太介意
  
